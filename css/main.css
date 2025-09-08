@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #ddd;
+    margin-bottom: 10px;
+}
+
+#preview {
+    text-align: center;
+}
+
+#preview img {
+    width: 360px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-container .btn {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
